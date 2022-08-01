@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_total_follower"
+        style="@style/TextPrimary.Small"
+        android:text="@string/total"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_followers"
+        style="@style/TextSize.Light"
+        android:layout_marginStart="4dp"
+        android:text="@string/followers"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_total_follower"
+        app:layout_constraintStart_toEndOf="@+id/tv_total_follower"
+        app:layout_constraintTop_toTopOf="@+id/tv_total_follower" />
+
+    <ImageView
+        android:id="@+id/iv_dot"
+        android:layout_width="4dp"
+        android:layout_height="4dp"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/ic_round_dot"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_followers"
+        app:layout_constraintStart_toEndOf="@+id/tv_followers"
+        app:layout_constraintTop_toTopOf="@+id/tv_followers"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tv_total_following"
+        style="@style/TextPrimary.Small"
+        android:layout_marginStart="4dp"
+        android:text="@string/total"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_followers"
+        app:layout_constraintStart_toEndOf="@+id/iv_dot"
+        app:layout_constraintTop_toTopOf="@+id/tv_followers" />
+
+    <TextView
+        android:id="@+id/tv_following"
+        style="@style/TextSize.Light"
+        android:layout_marginStart="4dp"
+        android:text="@string/following"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_total_following"
+        app:layout_constraintStart_toEndOf="@+id/tv_total_following"
+        app:layout_constraintTop_toTopOf="@+id/tv_total_following" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash Screen Theme (pre Android 12) -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_screen</item>
+        <item name="postSplashScreenTheme">@style/Theme.GithubUser</item>
+    </style>
+
+    <!-- My style using nunito fonts -->
+    <style name="ImageDetailSize" parent="Theme.GithubUser">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+    </style>
+    <style name="TextSize" parent="Theme.GithubUser">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextSize.Primary" parent="TextSize">
+        <item name="android:fontFamily">@font/nunito_bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextPrimary.Big" parent="TextSize.Primary">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextPrimary.Small" parent="TextSize.Primary">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="TextSize.Secondary" parent="TextSize">
+        <item name="android:fontFamily">@font/nunito_semi_bold</item>
+        <item name="android:textColor">@color/github</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextSize.Light" parent="TextSize">
+        <item name="android:fontFamily">@font/nunito_medium</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+</resources>

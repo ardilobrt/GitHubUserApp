@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Github User\'s Search</string>
+    <string name="detail">Detail User</string>
+    <string name="description">Description</string>
+    <string name="username">username</string>
+    <string name="name">Name</string>
+    <string name="total">65.5k</string>
+    <string name="followers">followers</string>
+    <string name="following">following</string>
+    <string name="repository">Repositories:</string>
+    <string name="location">Location</string>
+    <string name="company">Company</string>
+    <string name="desc_icon">Desc Icon</string>
+    <string name="search_user">Search User</string>
+    <string name="search_empty">User Not Found</string>
+    <string name="tab_1">Followers</string>
+    <string name="tab_2">Following</string>
+    <string name="setting">Setting</string>
+    <string name="favorite">Favorite User</string>
+    <string name="dark_mode">Dark Mode</string>
+</resources>

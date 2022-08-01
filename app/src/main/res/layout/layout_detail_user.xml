@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_follow"
+        style="@style/ImageDetailSize"
+        android:src="@drawable/ic_followers"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/iv_repo"
+        style="@style/ImageDetailSize"
+        android:src="@drawable/ic_repository"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_follow"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/iv_location"
+        style="@style/ImageDetailSize"
+        android:src="@drawable/ic_location"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_repo"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/iv_company"
+        style="@style/ImageDetailSize"
+        android:src="@drawable/ic_company"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_location"
+        tools:ignore="ContentDescription" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="40dp" />
+
+    <include
+        android:id="@+id/include_follower"
+        layout="@layout/layout_followers"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_follow"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/iv_follow" />
+
+    <TextView
+        android:id="@+id/tv_followers"
+        style="@style/TextSize.Light"
+        android:text="@string/repository"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_repo"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/iv_repo" />
+
+    <TextView
+        android:id="@+id/tv_total_repo"
+        style="@style/TextPrimary.Small"
+        android:layout_marginStart="4dp"
+        android:text="@string/total"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_followers"
+        app:layout_constraintStart_toEndOf="@+id/tv_followers"
+        app:layout_constraintTop_toTopOf="@+id/tv_followers" />
+
+    <TextView
+        android:id="@+id/tv_location"
+        style="@style/TextPrimary.Small"
+        android:text="@string/location"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_location"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/iv_location" />
+
+    <TextView
+        android:id="@+id/tv_company"
+        style="@style/TextPrimary.Small"
+        android:text="@string/company"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_company"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/iv_company" />
+</androidx.constraintlayout.widget.ConstraintLayout>

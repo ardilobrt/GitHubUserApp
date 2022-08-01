@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/drawable-v24/ic_favorite_menu.xml" value="0.121" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1145" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/drawable/ic_account_circle.xml" value="0.1145" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/drawable/ic_company.xml" value="0.1145" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/drawable/ic_company_on_24.xml" value="0.1145" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/drawable/ic_favorite_active.xml" value="0.121" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/drawable/ic_favorite_inactive.xml" value="0.121" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/drawable/ic_followers.xml" value="0.1145" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/drawable/ic_followers_x24.xml" value="0.1145" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1145" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/drawable/ic_location.xml" value="0.1145" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/drawable/ic_location_on_24.xml" value="0.1145" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/drawable/ic_repository.xml" value="0.1145" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/drawable/ic_round_dot.xml" value="0.1145" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/drawable/ic_search.xml" value="0.1595" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/drawable/ic_settings.xml" value="0.1" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/drawable/progress_bg.xml" value="0.15" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/layout/activity_detail.xml" value="0.18963730569948187" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/layout/activity_detail_user.xml" value="0.5" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/layout/activity_favorite.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/layout/activity_search.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/layout/activity_theme.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/layout/fragment_follow.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/layout/item_row_follow.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/layout/item_row_user.xml" value="0.22" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/layout/layot_progress_bar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/layout/layout_desc_user.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/layout/layout_detail_user.xml" value="0.33" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/layout/layout_empty.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/layout/layout_followers.xml" value="0.33" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/layout/layout_progress_bar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android_Dev/AAD2022/GithubUser/app/src/main/res/menu/option_menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
