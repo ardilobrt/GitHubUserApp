@@ -1,4 +1,4 @@
-# GitHubUserApp
+# GitHub User App
 Show user from Github - Challenge submission from Dicoding Academy (Fundamental Android) </br>
 
 1. Get data user From Github API </br>
